@@ -130,12 +130,12 @@ class InstrumentationMethods {
                 if (currentMetadata.contains(InstrumentationClass.Metadata.METHOD)) location.setArg(methodName, InstrumentationClass.Metadata.METHOD.name());
                 if (currentMetadata.contains(InstrumentationClass.Metadata.ITEM)) location.setArg(n.getClass().getSimpleName(), InstrumentationClass.Metadata.ITEM.name());
                 switch (location.getLocation()) {
-                    case InstrumentationClass.Locations.BEFORE:
+                    case BEFORE:
                         if (currentMetadata.contains(InstrumentationClass.Metadata.LOCATION))
                             location.setArg("Entering to", InstrumentationClass.Metadata.LOCATION.name());
                         replacement.addStatement(0, JavaParser.parseStatement(location.getMessage()));
                         break;
-                    case InstrumentationClass.Locations.AFTER_RETURN:
+                    case AFTER_RETURN:
                         if (currentMetadata.contains(InstrumentationClass.Metadata.LOCATION))
                             location.setArg("Successful exit from", InstrumentationClass.Metadata.LOCATION.name());
                         Optional<TryStmt> currentReturnTry = replacement.findFirst(TryStmt.class, tryStmt -> tryStmt.getTryBlock().getStatements().contains(n));
@@ -147,7 +147,7 @@ class InstrumentationMethods {
                         }
                         else replacement.addStatement(JavaParser.parseStatement(location.getMessage()));
                         break;
-                    case InstrumentationClass.Locations.AFTER_THROWING:
+                    case AFTER_THROWING:
                         if (currentMetadata.contains(InstrumentationClass.Metadata.LOCATION))
                             location.setArg("Exit with exception from", InstrumentationClass.Metadata.LOCATION.name());
                         Optional<TryStmt> currentThrowTry = replacement.findFirst(TryStmt.class, tryStmt -> tryStmt.getTryBlock().getStatements().contains(n));
@@ -190,7 +190,7 @@ class InstrumentationMethods {
                             replacement.replace(n, afterTry);
                         }
                         break;
-                    case InstrumentationClass.Locations.AFTER:
+                    case AFTER:
                         if (currentMetadata.contains(InstrumentationClass.Metadata.LOCATION))
                             location.setArg("Exiting from", InstrumentationClass.Metadata.LOCATION.name());
                         Optional<TryStmt> currentAfterTry = replacement.findFirst(TryStmt.class, tryStmt -> tryStmt.getTryBlock().getStatements().contains(n));
@@ -227,12 +227,12 @@ class InstrumentationMethods {
             if (currentMetadata.contains(InstrumentationClass.Metadata.METHOD)) location.setArg(methodName, InstrumentationClass.Metadata.METHOD.name());
             if (currentMetadata.contains(InstrumentationClass.Metadata.ITEM)) location.setArg(n.getClass().getSimpleName(), InstrumentationClass.Metadata.ITEM.name());
             switch (location.getLocation()) {
-                case InstrumentationClass.Locations.BEFORE:
+                case BEFORE:
                     if (currentMetadata.contains(InstrumentationClass.Metadata.LOCATION))
                         location.setArg("Entering to", InstrumentationClass.Metadata.LOCATION.name());
                     replacement.addStatement(0, JavaParser.parseStatement(location.getMessage()));
                     break;
-                case InstrumentationClass.Locations.AFTER_RETURN:
+                case AFTER_RETURN:
                     if (currentMetadata.contains(InstrumentationClass.Metadata.LOCATION))
                         location.setArg("Successful exit from", InstrumentationClass.Metadata.LOCATION.name());
                     Optional<TryStmt> currentReturnTry = replacement.findFirst(TryStmt.class, tryStmt -> tryStmt.getTryBlock().getStatements().contains(n));
@@ -244,7 +244,7 @@ class InstrumentationMethods {
                     }
                     else replacement.addStatement(JavaParser.parseStatement(location.getMessage()));
                     break;
-                case InstrumentationClass.Locations.AFTER_THROWING:
+                case AFTER_THROWING:
                     if (currentMetadata.contains(InstrumentationClass.Metadata.LOCATION))
                         location.setArg("Exiting from", InstrumentationClass.Metadata.LOCATION.name());
                     Optional<TryStmt> currentThrowTry = replacement.findFirst(TryStmt.class, tryStmt -> tryStmt.getTryBlock().getStatements().contains(n));
@@ -288,7 +288,7 @@ class InstrumentationMethods {
                         replacement.replace(n, afterTry);
                     }
                     break;
-                case InstrumentationClass.Locations.AFTER:
+                case AFTER:
                     if (currentMetadata.contains(InstrumentationClass.Metadata.LOCATION))
                         location.setArg("Exiting from", InstrumentationClass.Metadata.LOCATION.name());
                     Optional<TryStmt> currentAfterTry = replacement.findFirst(TryStmt.class, tryStmt -> tryStmt.getTryBlock().getStatements().contains(n));
