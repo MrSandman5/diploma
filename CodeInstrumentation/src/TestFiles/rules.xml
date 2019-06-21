@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings xmlns="Settings"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="Settings rules.xsd">
+    <language>Java</language>
+    <contexts>
+        <context name="c1">
+            <method>Main.main</method>
+        </context>
+    </contexts>
+    <rules>
+        <rule ID="number1">
+            <workspace>c1</workspace>
+            <item type="if">
+                <location place="before">
+                    <message>instrumentationLogger.log(Level.FINE, &quot;LOCATION ITEM block in CLASS class, in METHOD method.&quot;);</message>
+                </location>
+                <location place="return">
+                    <message>instrumentationLogger.log(Level.FINE, &quot;LOCATION ITEM block in CLASS class, in METHOD method.&quot;);</message>
+                </location>
+            </item>
+            <item type="foreach">
+            <location place="exception">
+                <message>instrumentationLogger.log(Level.SEVER, &quot;LOCATION ITEM block in CLASS class, in METHOD method, with EXCEPTION exception.&quot;, VARIABLE);</message>
+            </location>
+            <location place="after">
+                <message>instrumentationLogger.log(Level.FINE, &quot;LOCATION ITEM block in CLASS class, in METHOD method.&quot;);</message>
+            </location>
+            </item>
+        </rule>
+    </rules>
+</settings>

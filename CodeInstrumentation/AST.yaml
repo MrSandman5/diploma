@@ -1,0 +1,879 @@
+---
+root(Type=CompilationUnit): 
+    imports: 
+        - import(Type=ImportDeclaration): 
+            isAsterisk: "false"
+            isStatic: "false"
+            name(Type=Name): 
+                identifier: "Log"
+                qualifier(Type=Name): 
+                    identifier: "utils"
+                    qualifier(Type=Name): 
+                        identifier: "javaparser"
+                        qualifier(Type=Name): 
+                            identifier: "github"
+                            qualifier(Type=Name): 
+                                identifier: "com"
+        - import(Type=ImportDeclaration): 
+            isAsterisk: "false"
+            isStatic: "false"
+            name(Type=Name): 
+                identifier: "Client"
+                qualifier(Type=Name): 
+                    identifier: "client"
+                    qualifier(Type=Name): 
+                        identifier: "api"
+                        qualifier(Type=Name): 
+                            identifier: "jersey"
+                            qualifier(Type=Name): 
+                                identifier: "sun"
+                                qualifier(Type=Name): 
+                                    identifier: "com"
+        - import(Type=ImportDeclaration): 
+            isAsterisk: "false"
+            isStatic: "false"
+            name(Type=Name): 
+                identifier: "ClientResponse"
+                qualifier(Type=Name): 
+                    identifier: "client"
+                    qualifier(Type=Name): 
+                        identifier: "api"
+                        qualifier(Type=Name): 
+                            identifier: "jersey"
+                            qualifier(Type=Name): 
+                                identifier: "sun"
+                                qualifier(Type=Name): 
+                                    identifier: "com"
+        - import(Type=ImportDeclaration): 
+            isAsterisk: "false"
+            isStatic: "false"
+            name(Type=Name): 
+                identifier: "WebResource"
+                qualifier(Type=Name): 
+                    identifier: "client"
+                    qualifier(Type=Name): 
+                        identifier: "api"
+                        qualifier(Type=Name): 
+                            identifier: "jersey"
+                            qualifier(Type=Name): 
+                                identifier: "sun"
+                                qualifier(Type=Name): 
+                                    identifier: "com"
+        - import(Type=ImportDeclaration): 
+            isAsterisk: "false"
+            isStatic: "false"
+            name(Type=Name): 
+                identifier: "StringUtils"
+                qualifier(Type=Name): 
+                    identifier: "lang3"
+                    qualifier(Type=Name): 
+                        identifier: "commons"
+                        qualifier(Type=Name): 
+                            identifier: "apache"
+                            qualifier(Type=Name): 
+                                identifier: "org"
+        - import(Type=ImportDeclaration): 
+            isAsterisk: "false"
+            isStatic: "false"
+            name(Type=Name): 
+                identifier: "JAXBContext"
+                qualifier(Type=Name): 
+                    identifier: "bind"
+                    qualifier(Type=Name): 
+                        identifier: "xml"
+                        qualifier(Type=Name): 
+                            identifier: "javax"
+        - import(Type=ImportDeclaration): 
+            isAsterisk: "false"
+            isStatic: "false"
+            name(Type=Name): 
+                identifier: "JAXBException"
+                qualifier(Type=Name): 
+                    identifier: "bind"
+                    qualifier(Type=Name): 
+                        identifier: "xml"
+                        qualifier(Type=Name): 
+                            identifier: "javax"
+        - import(Type=ImportDeclaration): 
+            isAsterisk: "false"
+            isStatic: "false"
+            name(Type=Name): 
+                identifier: "Marshaller"
+                qualifier(Type=Name): 
+                    identifier: "bind"
+                    qualifier(Type=Name): 
+                        identifier: "xml"
+                        qualifier(Type=Name): 
+                            identifier: "javax"
+        - import(Type=ImportDeclaration): 
+            isAsterisk: "false"
+            isStatic: "false"
+            name(Type=Name): 
+                identifier: "Unmarshaller"
+                qualifier(Type=Name): 
+                    identifier: "bind"
+                    qualifier(Type=Name): 
+                        identifier: "xml"
+                        qualifier(Type=Name): 
+                            identifier: "javax"
+        - import(Type=ImportDeclaration): 
+            isAsterisk: "true"
+            isStatic: "false"
+            name(Type=Name): 
+                identifier: "io"
+                qualifier(Type=Name): 
+                    identifier: "java"
+        - import(Type=ImportDeclaration): 
+            isAsterisk: "false"
+            isStatic: "false"
+            name(Type=Name): 
+                identifier: "StandardCharsets"
+                qualifier(Type=Name): 
+                    identifier: "charset"
+                    qualifier(Type=Name): 
+                        identifier: "nio"
+                        qualifier(Type=Name): 
+                            identifier: "java"
+        - import(Type=ImportDeclaration): 
+            isAsterisk: "true"
+            isStatic: "false"
+            name(Type=Name): 
+                identifier: "util"
+                qualifier(Type=Name): 
+                    identifier: "java"
+    types: 
+        - type(Type=ClassOrInterfaceDeclaration): 
+            isInterface: "false"
+            name(Type=SimpleName): 
+                identifier: "Main"
+            members: 
+                - member(Type=FieldDeclaration): 
+                    modifiers: 
+                        - modifier(Type=Modifier): 
+                            keyword: "PRIVATE"
+                        - modifier(Type=Modifier): 
+                            keyword: "STATIC"
+                        - modifier(Type=Modifier): 
+                            keyword: "FINAL"
+                    variables: 
+                        - variable(Type=VariableDeclarator): 
+                            initializer(Type=IntegerLiteralExpr): 
+                                value: "1000"
+                            name(Type=SimpleName): 
+                                identifier: "COUNTDOWN"
+                            type(Type=PrimitiveType): 
+                                type: "INT"
+                - member(Type=MethodDeclaration): 
+                    body(Type=BlockStmt): 
+                        statements: 
+                            - statement(Type=ExpressionStmt): 
+                                expression(Type=VariableDeclarationExpr): 
+                                    variables: 
+                                        - variable(Type=VariableDeclarator): 
+                                            initializer(Type=IntegerLiteralExpr): 
+                                                value: "1000"
+                                            name(Type=SimpleName): 
+                                                identifier: "max"
+                                            type(Type=PrimitiveType): 
+                                                type: "INT"
+                                        - variable(Type=VariableDeclarator): 
+                                            initializer(Type=IntegerLiteralExpr): 
+                                                value: "0"
+                                            name(Type=SimpleName): 
+                                                identifier: "after"
+                                            type(Type=PrimitiveType): 
+                                                type: "INT"
+                            - statement(Type=WhileStmt): 
+                                body(Type=BlockStmt): 
+                                    statements: 
+                                        - statement(Type=ExpressionStmt): 
+                                            expression(Type=VariableDeclarationExpr): 
+                                                variables: 
+                                                    - variable(Type=VariableDeclarator): 
+                                                        initializer(Type=BinaryExpr): 
+                                                            operator: "PLUS"
+                                                            left(Type=BinaryExpr): 
+                                                                operator: "PLUS"
+                                                                left(Type=BinaryExpr): 
+                                                                    operator: "PLUS"
+                                                                    left(Type=StringLiteralExpr): 
+                                                                        value: "https://youtrack.jetbrains.net/rest/issue/byproject/KT?filter=Bug+%23Submitted&after="
+                                                                    right(Type=NameExpr): 
+                                                                        name(Type=SimpleName): 
+                                                                            identifier: "after"
+                                                                right(Type=StringLiteralExpr): 
+                                                                    value: "&max="
+                                                            right(Type=NameExpr): 
+                                                                name(Type=SimpleName): 
+                                                                    identifier: "max"
+                                                        name(Type=SimpleName): 
+                                                            identifier: "restUri"
+                                                        type(Type=ClassOrInterfaceType): 
+                                                            name(Type=SimpleName): 
+                                                                identifier: "String"
+                                        - statement(Type=ExpressionStmt): 
+                                            expression(Type=VariableDeclarationExpr): 
+                                                variables: 
+                                                    - variable(Type=VariableDeclarator): 
+                                                        initializer(Type=MethodCallExpr): 
+                                                            name(Type=SimpleName): 
+                                                                identifier: "create"
+                                                            scope(Type=NameExpr): 
+                                                                name(Type=SimpleName): 
+                                                                    identifier: "Client"
+                                                        name(Type=SimpleName): 
+                                                            identifier: "client"
+                                                        type(Type=ClassOrInterfaceType): 
+                                                            name(Type=SimpleName): 
+                                                                identifier: "Client"
+                                        - statement(Type=ExpressionStmt): 
+                                            expression(Type=VariableDeclarationExpr): 
+                                                variables: 
+                                                    - variable(Type=VariableDeclarator): 
+                                                        initializer(Type=MethodCallExpr): 
+                                                            name(Type=SimpleName): 
+                                                                identifier: "resource"
+                                                            scope(Type=NameExpr): 
+                                                                name(Type=SimpleName): 
+                                                                    identifier: "client"
+                                                            arguments: 
+                                                                - argument(Type=NameExpr): 
+                                                                    name(Type=SimpleName): 
+                                                                        identifier: "restUri"
+                                                        name(Type=SimpleName): 
+                                                            identifier: "webResource"
+                                                        type(Type=ClassOrInterfaceType): 
+                                                            name(Type=SimpleName): 
+                                                                identifier: "WebResource"
+                                        - statement(Type=ExpressionStmt): 
+                                            expression(Type=VariableDeclarationExpr): 
+                                                variables: 
+                                                    - variable(Type=VariableDeclarator): 
+                                                        initializer(Type=MethodCallExpr): 
+                                                            name(Type=SimpleName): 
+                                                                identifier: "get"
+                                                            scope(Type=MethodCallExpr): 
+                                                                name(Type=SimpleName): 
+                                                                    identifier: "accept"
+                                                                scope(Type=NameExpr): 
+                                                                    name(Type=SimpleName): 
+                                                                        identifier: "webResource"
+                                                                arguments: 
+                                                                    - argument(Type=StringLiteralExpr): 
+                                                                        value: "application/xml"
+                                                            arguments: 
+                                                                - argument(Type=ClassExpr): 
+                                                                    type(Type=ClassOrInterfaceType): 
+                                                                        name(Type=SimpleName): 
+                                                                            identifier: "ClientResponse"
+                                                        name(Type=SimpleName): 
+                                                            identifier: "response"
+                                                        type(Type=ClassOrInterfaceType): 
+                                                            name(Type=SimpleName): 
+                                                                identifier: "ClientResponse"
+                                        - statement(Type=ExpressionStmt): 
+                                            expression(Type=VariableDeclarationExpr): 
+                                                variables: 
+                                                    - variable(Type=VariableDeclarator): 
+                                                        initializer(Type=MethodCallExpr): 
+                                                            name(Type=SimpleName): 
+                                                                identifier: "getEntity"
+                                                            scope(Type=NameExpr): 
+                                                                name(Type=SimpleName): 
+                                                                    identifier: "response"
+                                                            arguments: 
+                                                                - argument(Type=ClassExpr): 
+                                                                    type(Type=ClassOrInterfaceType): 
+                                                                        name(Type=SimpleName): 
+                                                                            identifier: "String"
+                                                        name(Type=SimpleName): 
+                                                            identifier: "output"
+                                                        type(Type=ClassOrInterfaceType): 
+                                                            name(Type=SimpleName): 
+                                                                identifier: "String"
+                                        - statement(Type=IfStmt): 
+                                            condition(Type=MethodCallExpr): 
+                                                name(Type=SimpleName): 
+                                                    identifier: "equals"
+                                                scope(Type=StringLiteralExpr): 
+                                                    value: ""
+                                                arguments: 
+                                                    - argument(Type=MethodCallExpr): 
+                                                        name(Type=SimpleName): 
+                                                            identifier: "substringBetween"
+                                                        scope(Type=NameExpr): 
+                                                            name(Type=SimpleName): 
+                                                                identifier: "StringUtils"
+                                                        arguments: 
+                                                            - argument(Type=NameExpr): 
+                                                                name(Type=SimpleName): 
+                                                                    identifier: "output"
+                                                            - argument(Type=StringLiteralExpr): 
+                                                                value: "<issues>"
+                                                            - argument(Type=StringLiteralExpr): 
+                                                                value: "</issues>"
+                                            thenStmt(Type=BreakStmt): 
+                                        - statement(Type=ExpressionStmt): 
+                                            expression(Type=VariableDeclarationExpr): 
+                                                variables: 
+                                                    - variable(Type=VariableDeclarator): 
+                                                        name(Type=SimpleName): 
+                                                            identifier: "bw"
+                                                        type(Type=ClassOrInterfaceType): 
+                                                            name(Type=SimpleName): 
+                                                                identifier: "BufferedWriter"
+                                        - statement(Type=TryStmt): 
+                                            tryBlock(Type=BlockStmt): 
+                                                statements: 
+                                                    - statement(Type=ExpressionStmt): 
+                                                        expression(Type=AssignExpr): 
+                                                            operator: "ASSIGN"
+                                                            target(Type=NameExpr): 
+                                                                name(Type=SimpleName): 
+                                                                    identifier: "bw"
+                                                            value(Type=ObjectCreationExpr): 
+                                                                type(Type=ClassOrInterfaceType): 
+                                                                    name(Type=SimpleName): 
+                                                                        identifier: "BufferedWriter"
+                                                                arguments: 
+                                                                    - argument(Type=ObjectCreationExpr): 
+                                                                        type(Type=ClassOrInterfaceType): 
+                                                                            name(Type=SimpleName): 
+                                                                                identifier: "OutputStreamWriter"
+                                                                        arguments: 
+                                                                            - argument(Type=ObjectCreationExpr): 
+                                                                                type(Type=ClassOrInterfaceType): 
+                                                                                    name(Type=SimpleName): 
+                                                                                        identifier: "FileOutputStream"
+                                                                                arguments: 
+                                                                                    - argument(Type=StringLiteralExpr): 
+                                                                                        value: "C:\\\\Users\\\\saf-s\\\\Desktop\\\\Work_and_projects\\\\YouTrackIssuesGetter.project\\\\BugIssues.xml"
+                                                                            - argument(Type=FieldAccessExpr): 
+                                                                                name(Type=SimpleName): 
+                                                                                    identifier: "UTF_8"
+                                                                                scope(Type=NameExpr): 
+                                                                                    name(Type=SimpleName): 
+                                                                                        identifier: "StandardCharsets"
+                                                    - statement(Type=ExpressionStmt): 
+                                                        expression(Type=MethodCallExpr): 
+                                                            name(Type=SimpleName): 
+                                                                identifier: "write"
+                                                            scope(Type=NameExpr): 
+                                                                name(Type=SimpleName): 
+                                                                    identifier: "bw"
+                                                            arguments: 
+                                                                - argument(Type=BinaryExpr): 
+                                                                    operator: "PLUS"
+                                                                    left(Type=NameExpr): 
+                                                                        name(Type=SimpleName): 
+                                                                            identifier: "output"
+                                                                    right(Type=StringLiteralExpr): 
+                                                                        value: "\\n"
+                                                    - statement(Type=ExpressionStmt): 
+                                                        expression(Type=MethodCallExpr): 
+                                                            name(Type=SimpleName): 
+                                                                identifier: "close"
+                                                            scope(Type=NameExpr): 
+                                                                name(Type=SimpleName): 
+                                                                    identifier: "bw"
+                                            catchClauses: 
+                                                - catchClause(Type=CatchClause): 
+                                                    body(Type=BlockStmt): 
+                                                        statements: 
+                                                            - statement(Type=ExpressionStmt): 
+                                                                expression(Type=MethodCallExpr): 
+                                                                    name(Type=SimpleName): 
+                                                                        identifier: "printStackTrace"
+                                                                    scope(Type=NameExpr): 
+                                                                        name(Type=SimpleName): 
+                                                                            identifier: "e"
+                                                    parameter(Type=Parameter): 
+                                                        isVarArgs: "false"
+                                                        name(Type=SimpleName): 
+                                                            identifier: "e"
+                                                        type(Type=ClassOrInterfaceType): 
+                                                            name(Type=SimpleName): 
+                                                                identifier: "IOException"
+                                        - statement(Type=ExpressionStmt): 
+                                            expression(Type=AssignExpr): 
+                                                operator: "PLUS"
+                                                target(Type=NameExpr): 
+                                                    name(Type=SimpleName): 
+                                                        identifier: "after"
+                                                value(Type=IntegerLiteralExpr): 
+                                                    value: "1000"
+                                condition(Type=BooleanLiteralExpr): 
+                                    value: "true"
+                            - statement(Type=TryStmt): 
+                                tryBlock(Type=BlockStmt): 
+                                    statements: 
+                                        - statement(Type=ExpressionStmt): 
+                                            expression(Type=VariableDeclarationExpr): 
+                                                variables: 
+                                                    - variable(Type=VariableDeclarator): 
+                                                        initializer(Type=MethodCallExpr): 
+                                                            name(Type=SimpleName): 
+                                                                identifier: "newInstance"
+                                                            scope(Type=NameExpr): 
+                                                                name(Type=SimpleName): 
+                                                                    identifier: "JAXBContext"
+                                                            arguments: 
+                                                                - argument(Type=ClassExpr): 
+                                                                    type(Type=ClassOrInterfaceType): 
+                                                                        name(Type=SimpleName): 
+                                                                            identifier: "Issues"
+                                                        name(Type=SimpleName): 
+                                                            identifier: "jaxbContext"
+                                                        type(Type=ClassOrInterfaceType): 
+                                                            name(Type=SimpleName): 
+                                                                identifier: "JAXBContext"
+                                        - statement(Type=ExpressionStmt): 
+                                            expression(Type=VariableDeclarationExpr): 
+                                                variables: 
+                                                    - variable(Type=VariableDeclarator): 
+                                                        initializer(Type=MethodCallExpr): 
+                                                            name(Type=SimpleName): 
+                                                                identifier: "createUnmarshaller"
+                                                            scope(Type=NameExpr): 
+                                                                name(Type=SimpleName): 
+                                                                    identifier: "jaxbContext"
+                                                        name(Type=SimpleName): 
+                                                            identifier: "jaxbUnmarshaller"
+                                                        type(Type=ClassOrInterfaceType): 
+                                                            name(Type=SimpleName): 
+                                                                identifier: "Unmarshaller"
+                                        - statement(Type=ExpressionStmt): 
+                                            expression(Type=VariableDeclarationExpr): 
+                                                variables: 
+                                                    - variable(Type=VariableDeclarator): 
+                                                        initializer(Type=ObjectCreationExpr): 
+                                                            type(Type=ClassOrInterfaceType): 
+                                                                name(Type=SimpleName): 
+                                                                    identifier: "File"
+                                                            arguments: 
+                                                                - argument(Type=StringLiteralExpr): 
+                                                                    value: "C:\\\\Users\\\\saf-s\\\\Desktop\\\\Work_and_projects\\\\YouTrackIssuesGetter.project\\\\BugIssues.xml"
+                                                        name(Type=SimpleName): 
+                                                            identifier: "XMLfile"
+                                                        type(Type=ClassOrInterfaceType): 
+                                                            name(Type=SimpleName): 
+                                                                identifier: "File"
+                                        - statement(Type=ExpressionStmt): 
+                                            expression(Type=VariableDeclarationExpr): 
+                                                variables: 
+                                                    - variable(Type=VariableDeclarator): 
+                                                        initializer(Type=CastExpr): 
+                                                            expression(Type=MethodCallExpr): 
+                                                                name(Type=SimpleName): 
+                                                                    identifier: "unmarshal"
+                                                                scope(Type=NameExpr): 
+                                                                    name(Type=SimpleName): 
+                                                                        identifier: "jaxbUnmarshaller"
+                                                                arguments: 
+                                                                    - argument(Type=NameExpr): 
+                                                                        name(Type=SimpleName): 
+                                                                            identifier: "XMLfile"
+                                                            type(Type=ClassOrInterfaceType): 
+                                                                name(Type=SimpleName): 
+                                                                    identifier: "Issues"
+                                                        name(Type=SimpleName): 
+                                                            identifier: "issues"
+                                                        type(Type=ClassOrInterfaceType): 
+                                                            name(Type=SimpleName): 
+                                                                identifier: "Issues"
+                                        - statement(Type=ExpressionStmt): 
+                                            expression(Type=VariableDeclarationExpr): 
+                                                variables: 
+                                                    - variable(Type=VariableDeclarator): 
+                                                        initializer(Type=ObjectCreationExpr): 
+                                                            type(Type=ClassOrInterfaceType): 
+                                                                name(Type=SimpleName): 
+                                                                    identifier: "Issues"
+                                                        name(Type=SimpleName): 
+                                                            identifier: "bugIssues"
+                                                        type(Type=ClassOrInterfaceType): 
+                                                            name(Type=SimpleName): 
+                                                                identifier: "Issues"
+                                        - statement(Type=ExpressionStmt): 
+                                            expression(Type=VariableDeclarationExpr): 
+                                                variables: 
+                                                    - variable(Type=VariableDeclarator): 
+                                                        name(Type=SimpleName): 
+                                                            identifier: "tmpField"
+                                                        type(Type=ClassOrInterfaceType): 
+                                                            name(Type=SimpleName): 
+                                                                identifier: "Field"
+                                        - statement(Type=ExpressionStmt): 
+                                            expression(Type=VariableDeclarationExpr): 
+                                                variables: 
+                                                    - variable(Type=VariableDeclarator): 
+                                                        name(Type=SimpleName): 
+                                                            identifier: "fieldList"
+                                                        type(Type=ClassOrInterfaceType): 
+                                                            name(Type=SimpleName): 
+                                                                identifier: "List"
+                                                            typeArguments: 
+                                                                - typeArgument(Type=ClassOrInterfaceType): 
+                                                                    name(Type=SimpleName): 
+                                                                        identifier: "Field"
+                                        - statement(Type=ExpressionStmt): 
+                                            expression(Type=VariableDeclarationExpr): 
+                                                variables: 
+                                                    - variable(Type=VariableDeclarator): 
+                                                        name(Type=SimpleName): 
+                                                            identifier: "tmpIssue"
+                                                        type(Type=ClassOrInterfaceType): 
+                                                            name(Type=SimpleName): 
+                                                                identifier: "Issue"
+                                        - statement(Type=ExpressionStmt): 
+                                            expression(Type=VariableDeclarationExpr): 
+                                                variables: 
+                                                    - variable(Type=VariableDeclarator): 
+                                                        initializer(Type=ObjectCreationExpr): 
+                                                            type(Type=ClassOrInterfaceType): 
+                                                                name(Type=SimpleName): 
+                                                                    identifier: "ArrayList"
+                                                        name(Type=SimpleName): 
+                                                            identifier: "issueList"
+                                                        type(Type=ClassOrInterfaceType): 
+                                                            name(Type=SimpleName): 
+                                                                identifier: "List"
+                                                            typeArguments: 
+                                                                - typeArgument(Type=ClassOrInterfaceType): 
+                                                                    name(Type=SimpleName): 
+                                                                        identifier: "Issue"
+                                        - statement(Type=ForEachStmt): 
+                                            body(Type=BlockStmt): 
+                                                statements: 
+                                                    - statement(Type=ExpressionStmt): 
+                                                        expression(Type=AssignExpr): 
+                                                            operator: "ASSIGN"
+                                                            target(Type=NameExpr): 
+                                                                name(Type=SimpleName): 
+                                                                    identifier: "tmpField"
+                                                            value(Type=ObjectCreationExpr): 
+                                                                type(Type=ClassOrInterfaceType): 
+                                                                    name(Type=SimpleName): 
+                                                                        identifier: "Field"
+                                                    - statement(Type=ExpressionStmt): 
+                                                        expression(Type=AssignExpr): 
+                                                            operator: "ASSIGN"
+                                                            target(Type=NameExpr): 
+                                                                name(Type=SimpleName): 
+                                                                    identifier: "fieldList"
+                                                            value(Type=ObjectCreationExpr): 
+                                                                type(Type=ClassOrInterfaceType): 
+                                                                    name(Type=SimpleName): 
+                                                                        identifier: "ArrayList"
+                                                    - statement(Type=ExpressionStmt): 
+                                                        expression(Type=AssignExpr): 
+                                                            operator: "ASSIGN"
+                                                            target(Type=NameExpr): 
+                                                                name(Type=SimpleName): 
+                                                                    identifier: "tmpIssue"
+                                                            value(Type=ObjectCreationExpr): 
+                                                                type(Type=ClassOrInterfaceType): 
+                                                                    name(Type=SimpleName): 
+                                                                        identifier: "Issue"
+                                                    - statement(Type=ExpressionStmt): 
+                                                        expression(Type=VariableDeclarationExpr): 
+                                                            variables: 
+                                                                - variable(Type=VariableDeclarator): 
+                                                                    initializer(Type=StringLiteralExpr): 
+                                                                        value: ""
+                                                                    name(Type=SimpleName): 
+                                                                        identifier: "kotlinDesc"
+                                                                    type(Type=ClassOrInterfaceType): 
+                                                                        name(Type=SimpleName): 
+                                                                            identifier: "String"
+                                                    - statement(Type=ForEachStmt): 
+                                                        body(Type=BlockStmt): 
+                                                            statements: 
+                                                                - statement(Type=ExpressionStmt): 
+                                                                    expression(Type=VariableDeclarationExpr): 
+                                                                        variables: 
+                                                                            - variable(Type=VariableDeclarator): 
+                                                                                initializer(Type=MethodCallExpr): 
+                                                                                    name(Type=SimpleName): 
+                                                                                        identifier: "getValue"
+                                                                                    scope(Type=NameExpr): 
+                                                                                        name(Type=SimpleName): 
+                                                                                            identifier: "field"
+                                                                                name(Type=SimpleName): 
+                                                                                    identifier: "desc"
+                                                                                type(Type=ClassOrInterfaceType): 
+                                                                                    name(Type=SimpleName): 
+                                                                                        identifier: "String"
+                                                                - statement(Type=IfStmt): 
+                                                                    condition(Type=MethodCallExpr): 
+                                                                        name(Type=SimpleName): 
+                                                                            identifier: "contains"
+                                                                        scope(Type=NameExpr): 
+                                                                            name(Type=SimpleName): 
+                                                                                identifier: "desc"
+                                                                        arguments: 
+                                                                            - argument(Type=StringLiteralExpr): 
+                                                                                value: "```kotlin"
+                                                                    thenStmt(Type=BlockStmt): 
+                                                                        statements: 
+                                                                            - statement(Type=ExpressionStmt): 
+                                                                                expression(Type=AssignExpr): 
+                                                                                    operator: "ASSIGN"
+                                                                                    target(Type=NameExpr): 
+                                                                                        name(Type=SimpleName): 
+                                                                                            identifier: "kotlinDesc"
+                                                                                    value(Type=MethodCallExpr): 
+                                                                                        name(Type=SimpleName): 
+                                                                                            identifier: "substringBetween"
+                                                                                        scope(Type=NameExpr): 
+                                                                                            name(Type=SimpleName): 
+                                                                                                identifier: "StringUtils"
+                                                                                        arguments: 
+                                                                                            - argument(Type=NameExpr): 
+                                                                                                name(Type=SimpleName): 
+                                                                                                    identifier: "desc"
+                                                                                            - argument(Type=StringLiteralExpr): 
+                                                                                                value: "```kotlin"
+                                                                                            - argument(Type=StringLiteralExpr): 
+                                                                                                value: "```"
+                                                                            - statement(Type=ExpressionStmt): 
+                                                                                expression(Type=MethodCallExpr): 
+                                                                                    name(Type=SimpleName): 
+                                                                                        identifier: "setName"
+                                                                                    scope(Type=NameExpr): 
+                                                                                        name(Type=SimpleName): 
+                                                                                            identifier: "tmpField"
+                                                                                    arguments: 
+                                                                                        - argument(Type=MethodCallExpr): 
+                                                                                            name(Type=SimpleName): 
+                                                                                                identifier: "getName"
+                                                                                            scope(Type=NameExpr): 
+                                                                                                name(Type=SimpleName): 
+                                                                                                    identifier: "field"
+                                                                            - statement(Type=ExpressionStmt): 
+                                                                                expression(Type=MethodCallExpr): 
+                                                                                    name(Type=SimpleName): 
+                                                                                        identifier: "setValue"
+                                                                                    scope(Type=NameExpr): 
+                                                                                        name(Type=SimpleName): 
+                                                                                            identifier: "tmpField"
+                                                                                    arguments: 
+                                                                                        - argument(Type=NameExpr): 
+                                                                                            name(Type=SimpleName): 
+                                                                                                identifier: "kotlinDesc"
+                                                        iterable(Type=MethodCallExpr): 
+                                                            name(Type=SimpleName): 
+                                                                identifier: "getFieldList"
+                                                            scope(Type=NameExpr): 
+                                                                name(Type=SimpleName): 
+                                                                    identifier: "issue"
+                                                        variable(Type=VariableDeclarationExpr): 
+                                                            variables: 
+                                                                - variable(Type=VariableDeclarator): 
+                                                                    name(Type=SimpleName): 
+                                                                        identifier: "field"
+                                                                    type(Type=ClassOrInterfaceType): 
+                                                                        name(Type=SimpleName): 
+                                                                            identifier: "Field"
+                                                    - statement(Type=IfStmt): 
+                                                        condition(Type=MethodCallExpr): 
+                                                            name(Type=SimpleName): 
+                                                                identifier: "equals"
+                                                            scope(Type=StringLiteralExpr): 
+                                                                value: ""
+                                                            arguments: 
+                                                                - argument(Type=NameExpr): 
+                                                                    name(Type=SimpleName): 
+                                                                        identifier: "kotlinDesc"
+                                                        thenStmt(Type=ContinueStmt): 
+                                                    - statement(Type=ExpressionStmt): 
+                                                        expression(Type=MethodCallExpr): 
+                                                            name(Type=SimpleName): 
+                                                                identifier: "add"
+                                                            scope(Type=NameExpr): 
+                                                                name(Type=SimpleName): 
+                                                                    identifier: "fieldList"
+                                                            arguments: 
+                                                                - argument(Type=NameExpr): 
+                                                                    name(Type=SimpleName): 
+                                                                        identifier: "tmpField"
+                                                    - statement(Type=ExpressionStmt): 
+                                                        expression(Type=MethodCallExpr): 
+                                                            name(Type=SimpleName): 
+                                                                identifier: "setId"
+                                                            scope(Type=NameExpr): 
+                                                                name(Type=SimpleName): 
+                                                                    identifier: "tmpIssue"
+                                                            arguments: 
+                                                                - argument(Type=MethodCallExpr): 
+                                                                    name(Type=SimpleName): 
+                                                                        identifier: "getId"
+                                                                    scope(Type=NameExpr): 
+                                                                        name(Type=SimpleName): 
+                                                                            identifier: "issue"
+                                                    - statement(Type=ExpressionStmt): 
+                                                        expression(Type=MethodCallExpr): 
+                                                            name(Type=SimpleName): 
+                                                                identifier: "setEntityId"
+                                                            scope(Type=NameExpr): 
+                                                                name(Type=SimpleName): 
+                                                                    identifier: "tmpIssue"
+                                                            arguments: 
+                                                                - argument(Type=MethodCallExpr): 
+                                                                    name(Type=SimpleName): 
+                                                                        identifier: "getEntityId"
+                                                                    scope(Type=NameExpr): 
+                                                                        name(Type=SimpleName): 
+                                                                            identifier: "issue"
+                                                    - statement(Type=ExpressionStmt): 
+                                                        expression(Type=MethodCallExpr): 
+                                                            name(Type=SimpleName): 
+                                                                identifier: "setFieldList"
+                                                            scope(Type=NameExpr): 
+                                                                name(Type=SimpleName): 
+                                                                    identifier: "tmpIssue"
+                                                            arguments: 
+                                                                - argument(Type=NameExpr): 
+                                                                    name(Type=SimpleName): 
+                                                                        identifier: "fieldList"
+                                                    - statement(Type=ExpressionStmt): 
+                                                        expression(Type=MethodCallExpr): 
+                                                            name(Type=SimpleName): 
+                                                                identifier: "add"
+                                                            scope(Type=NameExpr): 
+                                                                name(Type=SimpleName): 
+                                                                    identifier: "issueList"
+                                                            arguments: 
+                                                                - argument(Type=NameExpr): 
+                                                                    name(Type=SimpleName): 
+                                                                        identifier: "tmpIssue"
+                                            iterable(Type=MethodCallExpr): 
+                                                name(Type=SimpleName): 
+                                                    identifier: "getIssueList"
+                                                scope(Type=NameExpr): 
+                                                    name(Type=SimpleName): 
+                                                        identifier: "issues"
+                                            variable(Type=VariableDeclarationExpr): 
+                                                variables: 
+                                                    - variable(Type=VariableDeclarator): 
+                                                        name(Type=SimpleName): 
+                                                            identifier: "issue"
+                                                        type(Type=ClassOrInterfaceType): 
+                                                            name(Type=SimpleName): 
+                                                                identifier: "Issue"
+                                        - statement(Type=ExpressionStmt): 
+                                            expression(Type=MethodCallExpr): 
+                                                name(Type=SimpleName): 
+                                                    identifier: "setIssueList"
+                                                scope(Type=NameExpr): 
+                                                    name(Type=SimpleName): 
+                                                        identifier: "bugIssues"
+                                                arguments: 
+                                                    - argument(Type=NameExpr): 
+                                                        name(Type=SimpleName): 
+                                                            identifier: "issueList"
+                                        - statement(Type=ExpressionStmt): 
+                                            expression(Type=VariableDeclarationExpr): 
+                                                variables: 
+                                                    - variable(Type=VariableDeclarator): 
+                                                        initializer(Type=MethodCallExpr): 
+                                                            name(Type=SimpleName): 
+                                                                identifier: "createMarshaller"
+                                                            scope(Type=NameExpr): 
+                                                                name(Type=SimpleName): 
+                                                                    identifier: "jaxbContext"
+                                                        name(Type=SimpleName): 
+                                                            identifier: "jaxbmarshaller"
+                                                        type(Type=ClassOrInterfaceType): 
+                                                            name(Type=SimpleName): 
+                                                                identifier: "Marshaller"
+                                        - statement(Type=ExpressionStmt): 
+                                            expression(Type=MethodCallExpr): 
+                                                name(Type=SimpleName): 
+                                                    identifier: "setProperty"
+                                                scope(Type=NameExpr): 
+                                                    name(Type=SimpleName): 
+                                                        identifier: "jaxbmarshaller"
+                                                arguments: 
+                                                    - argument(Type=FieldAccessExpr): 
+                                                        name(Type=SimpleName): 
+                                                            identifier: "JAXB_FORMATTED_OUTPUT"
+                                                        scope(Type=NameExpr): 
+                                                            name(Type=SimpleName): 
+                                                                identifier: "Marshaller"
+                                                    - argument(Type=FieldAccessExpr): 
+                                                        name(Type=SimpleName): 
+                                                            identifier: "TRUE"
+                                                        scope(Type=NameExpr): 
+                                                            name(Type=SimpleName): 
+                                                                identifier: "Boolean"
+                                        - statement(Type=ExpressionStmt): 
+                                            expression(Type=VariableDeclarationExpr): 
+                                                variables: 
+                                                    - variable(Type=VariableDeclarator): 
+                                                        initializer(Type=ObjectCreationExpr): 
+                                                            type(Type=ClassOrInterfaceType): 
+                                                                name(Type=SimpleName): 
+                                                                    identifier: "File"
+                                                            arguments: 
+                                                                - argument(Type=StringLiteralExpr): 
+                                                                    value: "C:\\\\Users\\\\saf-s\\\\Desktop\\\\Work_and_projects\\\\YouTrackIssuesGetter.project\\\\Issues.xml"
+                                                        name(Type=SimpleName): 
+                                                            identifier: "finalFile"
+                                                        type(Type=ClassOrInterfaceType): 
+                                                            name(Type=SimpleName): 
+                                                                identifier: "File"
+                                        - statement(Type=ExpressionStmt): 
+                                            expression(Type=MethodCallExpr): 
+                                                name(Type=SimpleName): 
+                                                    identifier: "marshal"
+                                                scope(Type=NameExpr): 
+                                                    name(Type=SimpleName): 
+                                                        identifier: "jaxbmarshaller"
+                                                arguments: 
+                                                    - argument(Type=NameExpr): 
+                                                        name(Type=SimpleName): 
+                                                            identifier: "bugIssues"
+                                                    - argument(Type=NameExpr): 
+                                                        name(Type=SimpleName): 
+                                                            identifier: "finalFile"
+                                catchClauses: 
+                                    - catchClause(Type=CatchClause): 
+                                        body(Type=BlockStmt): 
+                                            statements: 
+                                                - statement(Type=ExpressionStmt): 
+                                                    expression(Type=MethodCallExpr): 
+                                                        name(Type=SimpleName): 
+                                                            identifier: "printStackTrace"
+                                                        scope(Type=NameExpr): 
+                                                            name(Type=SimpleName): 
+                                                                identifier: "e"
+                                        parameter(Type=Parameter): 
+                                            isVarArgs: "false"
+                                            name(Type=SimpleName): 
+                                                identifier: "e"
+                                            type(Type=ClassOrInterfaceType): 
+                                                name(Type=SimpleName): 
+                                                    identifier: "JAXBException"
+                    type(Type=VoidType): 
+                    name(Type=SimpleName): 
+                        identifier: "main"
+                    modifiers: 
+                        - modifier(Type=Modifier): 
+                            keyword: "PUBLIC"
+                        - modifier(Type=Modifier): 
+                            keyword: "STATIC"
+                    parameters: 
+                        - parameter(Type=Parameter): 
+                            isVarArgs: "false"
+                            name(Type=SimpleName): 
+                                identifier: "args"
+                            type(Type=ArrayType): 
+                                origin: "TYPE"
+                                componentType(Type=ClassOrInterfaceType): 
+                                    name(Type=SimpleName): 
+                                        identifier: "String"
+            modifiers: 
+                - modifier(Type=Modifier): 
+                    keyword: "PUBLIC"
+...

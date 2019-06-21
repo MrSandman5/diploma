@@ -1,0 +1,1056 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<issues>
+    <issue id="KT-4645" entityId="25-672375">
+        <field name="description">
+            <value>
+if &lt;caret0&gt;(test1) {
+    foo()
+}
+else if &lt;caret1&gt;(test2) {
+    bar()
+}
+else if &lt;caret2&gt;(test3) {
+    baz()
+}
+</value>
+        </field>
+    </issue>
+    <issue id="KT-4896" entityId="25-691025">
+        <field name="description">
+            <value>
+java.util.logging.Logger.getLogger("").fine("message")
+</value>
+        </field>
+    </issue>
+    <issue id="KT-4953" entityId="25-692706">
+        <field name="description">
+            <value>
+fun foo(bar: String = "", baz: String = "0") {}
+
+fun test() {
+    foo(ba&lt;caret&gt;r = "1")
+}
+</value>
+        </field>
+    </issue>
+    <issue id="KT-7524" entityId="25-920187">
+        <field name="description">
+            <value>
+val stateSet: Set&lt;String&gt; = HashSet()
+</value>
+        </field>
+    </issue>
+    <issue id="KT-8417" entityId="25-970467">
+        <field name="description">
+            <value>
+private val waitingThreads = AtomicInteger(0)
+
+@suppress("&lt;what goes here?&gt;")
+private val mutex = waitingThreads as Object&lt;caret&gt;
+</value>
+        </field>
+    </issue>
+    <issue id="KT-8875" entityId="25-999935">
+        <field name="description">
+            <value>
+    val foo: &lt;caret&gt;Int.() -&gt; String = {
+        toString() + hashCode()
+    }
+</value>
+        </field>
+    </issue>
+    <issue id="KT-8886" entityId="25-1000369">
+        <field name="description">
+            <value>
+package foo.bar
+
+interface Foo {
+    companion object {
+        val foo1 = B()
+        val foo2 = B()
+    }
+}
+
+class B : Foo
+
+public fun test(f: Foo) {}
+</value>
+        </field>
+    </issue>
+    <issue id="KT-9065" entityId="25-1009708">
+        <field name="description">
+            <value>
+    &lt;caret&gt;println()
+    if (true) {
+        run {
+            //...
+        }
+    }
+</value>
+        </field>
+    </issue>
+    <issue id="KT-9515" entityId="25-1032060">
+        <field name="description">
+            <value>
+
+class A {
+    @Deprecated("", ReplaceWith("f2(this@A, this)"))
+    fun String.fff() = 1
+
+    fun mmm() {
+        "".fff()  // replace here should produce f2(this, "") but it produces f2("", "")
+    }
+}
+
+fun f2(a: A, s: String) = 1
+</value>
+        </field>
+    </issue>
+    <issue id="KT-11122" entityId="25-1126793">
+        <field name="description">
+            <value>
+class Test(val a: String,
+           @&lt;caret&gt;field:kotlin.Suppress("X") val b: String) {
+    val x = true
+    val y = false
+}
+</value>
+        </field>
+    </issue>
+    <issue id="KT-12087" entityId="25-1191891">
+        <field name="description">
+            <value>
+package foo //or foo.aaa
+
+object foo {
+    class Class
+}
+</value>
+        </field>
+    </issue>
+    <issue id="KT-12821" entityId="25-1236275">
+        <field name="description">
+            <value>
+fun f() {
+    listOf(1 to 1, 2 to 2)
+        .sortedWith(compareBy({ it.first }, { it.second }).&lt;caret&gt;)  // &lt;-- put caret here
+}
+</value>
+        </field>
+    </issue>
+    <issue id="KT-13538" entityId="25-1285404">
+        <field name="description">
+            <value>
+class A(val x: Int, val y: Int) {
+  constructor A(&lt;caret&gt;)
+}
+</value>
+        </field>
+    </issue>
+    <issue id="KT-14946" entityId="25-1367909">
+        <field name="description">
+            <value>
+class Outer {
+    class N1 {
+        fun foo1() {}
+    }
+
+    class N2 {
+        fun foo2() {}
+    }
+
+    class N3 {
+        fun foo3() {}
+    }
+}
+</value>
+        </field>
+    </issue>
+    <issue id="KT-15944" entityId="25-1419833">
+        <field name="description">
+            <value>
+interface T {
+    @Deprecated("", replaceWith = ReplaceWith("this"))
+    operator fun get(i: Int)
+    @Deprecated("", replaceWith = ReplaceWith("this"), level = DeprecationLevel.ERROR)
+    operator fun set(i: Int, v: Int)
+    @Deprecated("", replaceWith = ReplaceWith("this"))
+    operator fun plus(i: Int)
+}
+
+fun test_(t: T) {
+    t[0] //&lt;&lt; doesn't work here
+    t.get(0)
+    t[0] = 1 //&lt;&lt; doesn't work here
+    t.set(0, 1)
+    t + 1
+    t.plus(1)
+}
+</value>
+        </field>
+    </issue>
+    <issue id="KT-18179" entityId="25-1554391">
+        <field name="description">
+            <value>
+class C {
+    private abstract class PA {
+        fun foo() { bar() }
+        protected abstract fun bar() // (*)
+    }
+
+    private val test = object : PA() {
+        override fun bar() { // (**)
+            println("test")
+        }
+    }
+}
+</value>
+        </field>
+    </issue>
+    <issue id="KT-18701" entityId="25-1592402">
+        <field name="description">
+            <value>
+    listOf(1, 2, 3, 4, 5).pairwise { a, b -&gt;
+                                    println("$a vs. $b")
+                                   }
+</value>
+        </field>
+    </issue>
+    <issue id="KT-19391" entityId="25-1645828">
+        <field name="description">
+            <value>
+object Foo {
+    operator fun Int.get(key: String) = 42
+}
+
+fun bar() = with(Foo) {
+    val x = object {
+        val y = 38["Hello!"]
+    }
+}
+
+fun main(args: Array&lt;String&gt;) {
+    bar()
+}
+</value>
+        </field>
+    </issue>
+    <issue id="KT-19640" entityId="25-1663750">
+        <field name="description">
+            <value>
+import javax.swing.tree.DefaultMutableTreeNode
+
+class TestJavaExpectedTypeInference {
+    fun test(node: DefaultMutableTreeNode) {
+        val e = node.children() // (*)
+        while (e.hasMoreElements()) {
+            // ...
+        }
+    }
+}
+</value>
+        </field>
+    </issue>
+    <issue id="KT-19919" entityId="25-1677062">
+        <field name="description">
+            <value>
+class Foo : Cloneable {
+
+}
+</value>
+        </field>
+    </issue>
+    <issue id="KT-20542" entityId="25-1718864">
+        <field name="description">
+            <value>
+package pkg1
+
+internal class Internals {
+    private fun pvt(limit: Int = 0) {
+    }
+
+    internal inline fun failing() {
+        pvt()
+    }
+
+    internal inline fun working() {
+        pvt(0)
+    }
+}
+</value>
+        </field>
+    </issue>
+    <issue id="KT-20593" entityId="25-1722246">
+        <field name="description">
+            <value>
+import java.util.stream.IntStream
+
+fun main(args:Array&lt;String&gt;) {
+	val n = 1000000000
+	val delta = 1.0 / n
+	val startTimeNanos = System.nanoTime()
+	val pi = 4.0 * delta * IntStream.range(1, n).mapToDouble{i -&gt;
+		val x = (i - 0.5) * delta
+		1.0 / (1.0 + x * x)
+	}.sum()
+	val elapseTime = (System.nanoTime() - startTimeNanos) / 1e9
+	out("Sequential Streams", pi, n, elapseTime)
+}
+</value>
+        </field>
+    </issue>
+    <issue id="KT-21787" entityId="25-1807514">
+        <field name="description">
+            <value>
+import org.junit.jupiter.api.Test
+import kotlin.test.assertEquals
+
+
+class Container {
+
+    var id: Int? = null
+}
+
+
+class TestClass {
+
+    @Test
+    fun doThings1() {
+        val containers = createContainers1()
+        assertEquals(containers.size, 101)
+    }
+
+    @Test
+    fun doThings2() {
+        val containers = createContainers2()
+        assertEquals(containers.size, 101)
+    }
+
+    private fun createContainer(id: Int): Container { val q = Container(); q.id = id; return q }
+    private fun createContainers1(from: Int = 0, to: Int = 100) = (from .. to).map(::createContainer)
+    private fun createContainers2(from: Int = 0, to: Int = 100): List&lt;Container&gt; { return (from .. to).map(::createContainer) }
+}
+</value>
+        </field>
+    </issue>
+    <issue id="KT-22736" entityId="25-1861273">
+        <field name="description">
+            <value>
+        registerActivityCallbacks(
+            onPaused = { },
+            onResumed = ::onActivityResumed
+        )
+</value>
+        </field>
+    </issue>
+    <issue id="KT-22836" entityId="25-1866180">
+        <field name="description">
+            <value>
+class DummyClass {
+
+  private fun foo(prefs: SharedPreferences) {
+    var id: String = prefs.getString("SOME_KEY", null)
+    // ...
+  }
+
+}
+</value>
+        </field>
+    </issue>
+    <issue id="KT-22916" entityId="25-1870203">
+        <field name="description">
+            <value>
+parentOfType&lt;JuliaStatements&gt;()
+</value>
+        </field>
+    </issue>
+    <issue id="KT-23525" entityId="25-1921739">
+        <field name="description">
+            <value>
+val x = 1
+val x = 2
+println(x)
+</value>
+        </field>
+    </issue>
+    <issue id="KT-23675" entityId="25-1937697">
+        <field name="description">
+            <value>
+class Environment(
+    val fieldAccessedInsideChild: Int,
+    val how: Environment.() -&gt; Unit
+)
+
+fun main(args: Array&lt;String&gt;) {
+    Environment(
+        3,
+        {
+            class Child {
+                val a = fieldAccessedInsideChild
+            }
+
+            class Parent {
+                val children: List&lt;Child&gt; =
+                    (0..4).map { Child() }
+            }
+        }
+    )
+}
+
+</value>
+        </field>
+    </issue>
+    <issue id="KT-23881" entityId="25-1960242">
+        <field name="description">
+            <value>
+fun main(args: Array&lt;String&gt;) {
+    class LeakedType(val source: String)
+    class ClassWithCallback {
+        var someCallback: (() -&gt; Unit)? = null
+
+        fun dumpCallbackFields() =
+            someCallback!!.javaClass.declaredFields
+                .map { it.get(someCallback!!) as LeakedType }
+                .forEach { println("From callback fields :: leakedType=${it.source}") }
+    }
+
+    val classWithCallback = ClassWithCallback()
+
+    val outer = LeakedType("Used in callback")
+    val leaked = LeakedType("Used in apply block but not callback")
+
+    classWithCallback.apply {
+        someCallback = { println("In callback :: leakedType=${outer.source}") }
+        println("In apply block using leak arg :: leakedType=${leaked.source}")
+    }
+    classWithCallback.dumpCallbackFields()
+}
+</value>
+        </field>
+    </issue>
+    <issue id="KT-23925" entityId="25-1965170">
+        <field name="description">
+            <value>
+/** Does an '[a]([b])' returning a '[c]'. */
+class Foobar(a: String, b: String, c: String) {
+  
+}
+</value>
+        </field>
+    </issue>
+    <issue id="KT-24305" entityId="25-1980457">
+        <field name="description">
+            <value>
+fun main(args: Array&lt;String&gt;) {
+  val n = 1
+  repeat(1) {
+    class Foo {
+      fun bar() = n + 1
+    }
+    println(Foo::class.java.getDeclaredConstructor())
+  }
+}
+</value>
+        </field>
+    </issue>
+    <issue id="KT-24336" entityId="25-1982580">
+        <field name="description">
+            <value>
+import org.w3c.dom.svg.SVGAnimatedEnumeration
+import org.w3c.dom.svg.SVGAnimatedLength
+import org.w3c.dom.svg.SVGElement
+
+public external abstract class SVGMaskElement : SVGElement {
+    val maskUnits: SVGAnimatedEnumeration
+    val maskContentUnits: SVGAnimatedEnumeration
+    val x: SVGAnimatedLength
+    val y: SVGAnimatedLength
+    val width: SVGAnimatedLength
+    val height: SVGAnimatedLength
+}
+</value>
+        </field>
+    </issue>
+    <issue id="KT-24477" entityId="25-1991032">
+        <field name="description">
+            <value>
+class Container(val item: Item = Item())
+class Item(val i: Int = 3)
+
+class Test {
+    var arrayOfContainers = arrayOf&lt;Container&gt;()
+
+    fun setupAndGet(): Container {
+        setup(1)
+        return arrayOfContainers[0]
+    }
+
+    inline fun setup(number: Int, getItem: ((Int) -&gt; Item?) = { null }) {
+        if (number &lt;= 0) return
+
+        arrayOfContainers = Array(number) {
+            val item = getItem(it)
+            if (item != null)
+                Container(item)
+            else
+                Container()
+        }
+    }
+}
+
+
+fun main(args: Array&lt;String&gt;) {
+    val t = Test()
+    t.setup(3) { Item(4) }
+    t.setupAndGet()
+}
+</value>
+        </field>
+    </issue>
+    <issue id="KT-24987" entityId="25-2024421">
+        <field name="description">
+            <value>
+val foo: dynamic by lazy { JSON.parse&lt;dynamic&gt;("...") }
+</value>
+        </field>
+    </issue>
+    <issue id="KT-25023" entityId="25-2026555">
+        <field name="description">
+            <value>
+fun getData(): T? = dataLock.withLock {
+    while (true) {
+        val empty = dataQueue.isEmpty()
+        when {
+            empty &amp;&amp; thereWillNeverBeAnyMoreData -&gt; return null
+            empty -&gt; dataAvailable.await()
+            else -&gt; return dataQueue.pop()
+        }
+    }
+}
+</value>
+        </field>
+    </issue>
+    <issue id="KT-25353" entityId="25-2042876">
+        <field name="description">
+            <value>
+class Foo(val i: Int) {
+    init {
+        val z = "42"
+        val zz = z.toInt()
+    }
+}
+</value>
+        </field>
+    </issue>
+    <issue id="KT-25386" entityId="25-2044853">
+        <field name="description">
+            <value>
+fun readI(): Int = Random().nextInt()
+
+fun f() {
+    var i = 0
+    label@while(true) {
+        i = readI()
+        when(i) {
+            0 -&gt; throw IllegalStateException()
+            -1 -&gt; break@label
+            else -&gt; throw IllegalStateException()
+        }
+    }
+}
+</value>
+        </field>
+    </issue>
+    <issue id="KT-25464" entityId="25-2048943">
+        <field name="description">
+            <value>
+class Bug {
+  private fun createRunnable(nested: Nested): Runnable {
+    return object : Runnable {
+      override fun run() {
+        bug()
+      }
+
+      private inline fun bug() {
+        nested.toString()
+      }
+    }
+  }
+
+  private class Nested
+}
+</value>
+        </field>
+    </issue>
+    <issue id="KT-25652" entityId="25-2056655">
+        <field name="description">
+            <value>
+val script = """
+    when(true) {
+        true -&gt; "true"
+        false -&gt; "false"
+    }
+""".trimIndent()
+
+val engine = ScriptEngineManager().getEngineByExtension("kts")!!
+
+val o = engine.eval(script)
+println(o)
+</value>
+        </field>
+    </issue>
+    <issue id="KT-25787" entityId="25-2067516">
+        <field name="description">
+            <value>
+class Presenter(private val view: View) {
+	fun load() {
+		Single
+			.fromCallable { "Hello world" }
+			.subscribeUsual(
+				onSuccess = { result -&gt; view.display(result) },
+				onError = { error -&gt; error.printStackTrace() }
+			)
+	}
+}
+
+inline fun &lt;T&gt; Single&lt;T&gt;.subscribeUsual(
+	onSuccess: (result: T) -&gt; Unit,
+	onError: (error: Throwable) -&gt; Unit
+): Subscription =
+	this
+		.subscribeOn(Schedulers.immediate())
+		.observeOn(Schedulers.immediate())
+		.subscribe(onSuccess.toAction(), onError.toAction())
+
+@Suppress("NOTHING_TO_INLINE")
+inline fun &lt;T&gt; ((input: T) -&gt; Unit).toAction() = Action1&lt;T&gt; { this.invoke(it) }
+</value>
+        </field>
+    </issue>
+    <issue id="KT-26056" entityId="25-2084179">
+        <field name="description">
+            <value>
+val displayMapping = arrayOf("NUL", "ONE"/*, ...*/)
+val chr = '\u0000'
+val toDisplay = displayMapping[chr]
+println(toDisplay)
+</value>
+        </field>
+    </issue>
+    <issue id="KT-26058" entityId="25-2084246">
+        <field name="description">
+            <value>
+fun f(): String? {
+	return if (Math.random() &gt;= 0.5) {
+		null
+	} else "a"
+		+ System.currentTimeMillis()
+		+ "b"
+}
+</value>
+        </field>
+    </issue>
+    <issue id="KT-26107" entityId="25-2085179">
+        <field name="description">
+            <value>
+Flux.combineLatest(sources) { lastObjects -&gt;
+    lastObjects.map {
+        @Suppress("UNCHECKED_CAST")
+        it as Message&lt;T&gt;
+    }
+}
+</value>
+        </field>
+    </issue>
+    <issue id="KT-26105" entityId="25-2085665">
+        <field name="description">
+            <value>
+fun f(name: String) {
+    listOf&lt;String&gt;().forEach { name -&gt;
+        println(name)
+    }
+}
+</value>
+        </field>
+    </issue>
+    <issue id="KT-26108" entityId="25-2085839">
+        <field name="description">
+            <value>
+@Ann val control = 0
+@Ann val arr = intArrayOf(1, 2, 3)
+for (test in arr) {
+	println(control + test)
+}
+for (i in arr.indices) {
+	println(control + arr[i])
+}
+</value>
+        </field>
+    </issue>
+    <issue id="KT-26109" entityId="25-2085847">
+        <field name="description">
+            <value>
+class C {
+	fun f() {
+		if (Math.random() &lt; 0.5) {
+			normal()
+		} else {
+			dep()
+		}
+	}
+
+	@Deprecated("")
+	private fun dep() {
+	}
+
+	private fun normal() {}
+}
+</value>
+        </field>
+    </issue>
+    <issue id="KT-26130" entityId="25-2086862">
+        <field name="description">
+            <value>
+package test
+
+inline class Z(val x: Int)
+
+fun &lt;T : Z&gt; foo(x: T) {}
+</value>
+        </field>
+    </issue>
+    <issue id="KT-26131" entityId="25-2086887">
+        <field name="description">
+            <value>
+package test
+
+fun &lt;T : Int&gt; bar(x: T) {}
+</value>
+        </field>
+    </issue>
+    <issue id="KT-26263" entityId="25-2093973">
+        <field name="description">
+            <value>
+import java.util.*
+
+object Tester {
+
+    internal class Foo(val v: String) {
+
+        override fun hashCode(): Int {
+            return Objects.hash(v)
+        }
+
+        override fun equals(obj: Any?): Boolean {
+            if (obj is Foo) return v == obj.v
+            return if (obj is Bar) v == obj.v else false
+        }
+    }
+
+    internal class Bar(val v: String) {
+
+        override fun hashCode(): Int {
+            return Objects.hash(v)
+        }
+
+        override fun equals(obj: Any?): Boolean {
+            if (obj is Foo) return v == obj.v
+            return if (obj is Bar) v == obj.v else false
+        }
+    }
+
+    @JvmStatic
+    fun main(args: Array&lt;String&gt;) {
+        println("Equal? " + (Foo("test") == Bar("test")))
+    }
+}
+</value>
+        </field>
+    </issue>
+    <issue id="KT-26346" entityId="25-2097403">
+        <field name="description">
+            <value>
+inline fun &lt;reified E : Enum&lt;E&gt;&gt; Configuration.enum(default: E, key: String? = null) = object : ReadWriteProperty&lt;Configuration, E&gt; {
+    override fun getValue(thisRef: Configuration, property: KProperty&lt;*&gt;): E {
+        return (thisRef[key ?: property.name].string)?.let { enumValueOf&lt;E&gt;(it) } ?: default
+    }
+
+    override fun setValue(thisRef: Configuration, property: KProperty&lt;*&gt;, value: E) {
+        thisRef[key ?: property.name] = value.name
+    }
+}
+</value>
+        </field>
+    </issue>
+    <issue id="KT-26384" entityId="25-2099315">
+        <field name="description">
+            <value>
+class Test {
+    fun test() {
+        try {
+            apply {
+                try {
+                    return test()
+                } catch (e: Exception) {
+
+                } catch (e: Throwable) {
+
+                }
+            }
+        } finally {
+            
+        }
+    }
+}
+</value>
+        </field>
+    </issue>
+    <issue id="KT-26417" entityId="25-2100682">
+        <field name="description">
+            <value>
+import java.io.ByteArrayInputStream
+
+fun main(args: Array&lt;String&gt;) {
+  call()
+}
+
+fun call() {
+  val x: Int = out@ try {
+    ByteArrayInputStream(ByteArray(5)).use {
+      if (it.read() == 42) {
+        return@out 0
+      }
+    }
+
+    return@out 1
+  } catch (ex: Throwable) {
+    throw ex
+  }
+  println(x)
+}
+</value>
+        </field>
+    </issue>
+    <issue id="KT-26506" entityId="25-2104023">
+        <field name="description">
+            <value>
+inline class Outer(val x: Int) {
+    inner class Inner {
+        fun foo() = x
+    }
+}
+</value>
+        </field>
+    </issue>
+    <issue id="KT-26608" entityId="25-2109109">
+        <field name="description">
+            <value>
+import android.content.BroadcastReceiver
+import android.content.Context
+import android.content.Intent
+import kotlinx.coroutines.experimental.CoroutineScope
+import kotlinx.coroutines.experimental.CoroutineStart
+import kotlinx.coroutines.experimental.Job
+import kotlinx.coroutines.experimental.android.UI
+import kotlinx.coroutines.experimental.delay
+import kotlinx.coroutines.experimental.launch
+import kotlinx.coroutines.experimental.yield
+import timber.log.Timber
+
+class InliningBugReceiverWrapper : BroadcastReceiver() {
+
+    class InliningBugReceiver : BroadcastReceiver() {
+        override fun onReceive(context: Context?, intent: Intent?) {
+            if (intent?.action == Intent.ACTION_BOOT_COMPLETED) goAsyncAndLaunch {
+                try {
+                    delay(0.also { yield() })
+                } catch (e: Exception) {
+                    Timber.e(e)
+                }
+            }
+        }
+    }
+
+    override fun onReceive(context: Context?, intent: Intent?) {
+        TODO()
+    }
+}
+
+@Suppress("NOTHING_TO_INLINE")
+inline fun BroadcastReceiver.goAsyncAndLaunch(crossinline block: suspend () -&gt; Unit) {
+    val pendingResult = goAsync()
+    launchInUi {
+        try {
+            block()
+        } finally {
+            pendingResult.finish()
+        }
+    }
+}
+
+@Suppress("NOTHING_TO_INLINE")
+inline fun launchInUi(
+        parent: Job? = null,
+        noinline block: suspend CoroutineScope.() -&gt; Unit
+): Job {
+    return launch(UI, start = CoroutineStart.UNDISPATCHED, parent = parent, block = block)
+}
+</value>
+        </field>
+    </issue>
+    <issue id="KT-26614" entityId="25-2109284">
+        <field name="description">
+            <value>
+abstract class A {
+    abstract val prop: Int
+}
+
+class Impl(
+    override val &lt;caret&gt;prop: Int //Cmd+U (go to super declaration) should navigate to A#prop 
+): A()
+</value>
+        </field>
+    </issue>
+    <issue id="KT-26697" entityId="25-2112108">
+        <field name="description">
+            <value>
+import java.util.*
+
+class A() {
+    fun foo(a: Int, b: Int): Boolean = a == b
+    
+    private fun foo() {
+        open class B(val b: Int) {
+            fun bar(other: B) = foo(other.b, b)
+        }
+        
+        class C(b: Int, val c: Int) : B(b)
+    }
+}
+</value>
+        </field>
+    </issue>
+    <issue id="KT-26767" entityId="25-2115065">
+        <field name="description">
+            <value>
+inline class Mangled(val x: Int) {
+    fun interesting() {}
+}
+
+object Test {
+    fun veryInteresting(m: Mangled) {}
+}
+</value>
+        </field>
+    </issue>
+    <issue id="KT-26827" entityId="25-2116814">
+        <field name="description">
+            <value>
+data class NotInline(val x: UInt)
+inline class NotData(val x: UInt)
+data inline class NotUnsigned(val x: Int) // incompilable
+</value>
+        </field>
+    </issue>
+    <issue id="KT-26829" entityId="25-2116833">
+        <field name="description">
+            <value>
+ inline class Inline(val x1: UInt) 
+ class WrapInline(val x2: Inline)
+</value>
+        </field>
+    </issue>
+    <issue id="KT-26842" entityId="25-2117106">
+        <field name="description">
+            <value>
+&lt;caret&gt;class Bar(val x: Int){}
+class BarNoBody(val x: Int)
+class BarNoField(x: Int){}
+</value>
+        </field>
+    </issue>
+    <issue id="KT-26851" entityId="25-2117218">
+        <field name="description">
+            <value>
+fun main(args: Array&lt;String&gt;) {
+
+}
+</value>
+        </field>
+    </issue>
+    <issue id="KT-26853" entityId="25-2117436">
+        <field name="description">
+            <value>
+package a.b.c
+
+// Extra gutter icon
+fun main(args: Array&lt;String&gt;) {
+    println("Hello, world!")
+}
+</value>
+        </field>
+    </issue>
+    <issue id="KT-26860" entityId="25-2117901">
+        <field name="description">
+            <value>
+class SampleNotWorking {
+    private val builder = StringBuilder()
+    fun addMessage() {
+        builder.append("hello")
+    }
+
+    override fun toString(): String {
+        return builder.toString()
+    }
+}
+
+class SampleWorking {
+    private val builder = StringBuilder()
+    fun addMessage() {
+        builder.append("hello")
+    }
+
+    override fun toString() = builder.toString()
+}
+</value>
+        </field>
+    </issue>
+    <issue id="KT-26864" entityId="25-2118133">
+        <field name="description">
+            <value>
+external interface Tint {
+    fun setTint(
+        topLeft: Int = definedExternally,
+        topRight: Int = definedExternally,
+        bottomLeft: Int = definedExternally,
+        bottomRight: Int = definedExternally
+    ): Tint
+}
+
+external class Sprite : Tint {
+}
+</value>
+        </field>
+    </issue>
+    <issue id="KT-26871" entityId="25-2118205">
+        <field name="description">
+            <value>
+class DataLoader {
+    var data: String? = null
+        private set
+
+    var dataLength: Int = 0
+
+    fun loadAndMeasureData() {
+        data = loadData()
+        dataLength = data.length
+    }
+
+    private fun loadData() : String {
+        TODO()
+    }
+}
+</value>
+        </field>
+    </issue>
+</issues>

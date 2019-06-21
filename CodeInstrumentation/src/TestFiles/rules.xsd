@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="Settings"
+           xmlns="Settings"
+           elementFormDefault="qualified">
+    <xs:element name="settings">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="metadata" maxOccurs="0">
+                <xs:complexType >
+                    <xs:sequence>
+                        <xs:element name="current_location" type="xs:ENTITY" default="LOCATION"/>
+                        <xs:element name="current_item" type="xs:ENTITY" default="ITEM"/>
+                        <xs:element name="current_class" type="xs:ENTITY" default="CLASS"/>
+                        <xs:element name="current_method" type="xs:ENTITY" default="METHOD"/>
+                        <xs:element name="current_variable" type="xs:ENTITY" default="VARIABLE"/>
+                        <xs:element name="current_exception" type="xs:ENTITY" default="EXCEPTION"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="language" type="xs:string"/>
+            <xs:element name="contexts">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="context" maxOccurs="unbounded">
+                            <xs:complexType mixed="true">
+                                <xs:sequence>
+                                    <xs:element name="method" type="xs:string" maxOccurs="unbounded"/>
+                                </xs:sequence>
+                                <xs:attribute name="name" type="xs:string" use="required"/>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="rules">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="rule" maxOccurs="unbounded">
+                            <xs:complexType mixed="true">
+                                <xs:sequence>
+                                    <xs:element name="workspace" type="xs:string" maxOccurs="unbounded"/>
+                                    <xs:element name="item" maxOccurs="unbounded">
+                                        <xs:complexType mixed="true">
+                                            <xs:sequence>
+                                                <xs:element name="location" maxOccurs="5">
+                                                    <xs:complexType mixed="true">
+                                                        <xs:sequence>
+                                                            <xs:element name="message" type="xs:string"/>
+                                                        </xs:sequence>
+                                                        <xs:attribute name="place" type="xs:string" use="required"/>
+                                                    </xs:complexType>
+                                                </xs:element>
+                                            </xs:sequence>
+                                            <xs:attribute name="type" type="xs:string" use="required"/>
+                                        </xs:complexType>
+                                    </xs:element>
+                                </xs:sequence>
+                                <xs:attribute name="ID" type="xs:string" use="required"/>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

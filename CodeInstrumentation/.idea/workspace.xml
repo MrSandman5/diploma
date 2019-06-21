@@ -1,0 +1,1109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="CodeInstrumentation:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1aeb70f9-ae2c-4b3c-97f4-49f006a60c3e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/TestFiles/YouTrackIssueGetter/YouTrackIssuesGetter.project/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestFiles/YouTrackIssueGetter/YouTrackIssuesGetter.project/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestFiles/YouTrackIssueGetter/YouTrackIssuesGetter.project/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_annotations_2_8_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestFiles/YouTrackIssueGetter/YouTrackIssuesGetter.project/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_core_2_8_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestFiles/YouTrackIssueGetter/YouTrackIssuesGetter.project/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_databind_2_8_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestFiles/YouTrackIssueGetter/YouTrackIssuesGetter.project/.idea/libraries/Gradle__com_fasterxml_jackson_jaxrs_jackson_jaxrs_base_2_8_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestFiles/YouTrackIssueGetter/YouTrackIssuesGetter.project/.idea/libraries/Gradle__com_fasterxml_jackson_jaxrs_jackson_jaxrs_json_provider_2_8_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestFiles/YouTrackIssueGetter/YouTrackIssuesGetter.project/.idea/libraries/Gradle__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_8_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestFiles/YouTrackIssueGetter/YouTrackIssuesGetter.project/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestFiles/YouTrackIssueGetter/YouTrackIssuesGetter.project/.idea/libraries/Gradle__com_google_errorprone_error_prone_annotations_2_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestFiles/YouTrackIssueGetter/YouTrackIssuesGetter.project/.idea/libraries/Gradle__com_google_guava_guava_25_1_jre.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestFiles/YouTrackIssueGetter/YouTrackIssuesGetter.project/.idea/libraries/Gradle__com_google_j2objc_j2objc_annotations_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestFiles/YouTrackIssueGetter/YouTrackIssuesGetter.project/.idea/libraries/Gradle__com_sun_jersey_jersey_client_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestFiles/YouTrackIssueGetter/YouTrackIssuesGetter.project/.idea/libraries/Gradle__com_sun_jersey_jersey_core_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestFiles/YouTrackIssueGetter/YouTrackIssuesGetter.project/.idea/libraries/Gradle__com_sun_xml_bind_jaxb_core_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestFiles/YouTrackIssueGetter/YouTrackIssuesGetter.project/.idea/libraries/Gradle__com_sun_xml_bind_jaxb_impl_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestFiles/YouTrackIssueGetter/YouTrackIssuesGetter.project/.idea/libraries/Gradle__javax_annotation_javax_annotation_api_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestFiles/YouTrackIssueGetter/YouTrackIssuesGetter.project/.idea/libraries/Gradle__javax_inject_javax_inject_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestFiles/YouTrackIssueGetter/YouTrackIssuesGetter.project/.idea/libraries/Gradle__javax_ws_rs_javax_ws_rs_api_2_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestFiles/YouTrackIssueGetter/YouTrackIssuesGetter.project/.idea/libraries/Gradle__javax_xml_bind_jaxb_api_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestFiles/YouTrackIssueGetter/YouTrackIssuesGetter.project/.idea/libraries/Gradle__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestFiles/YouTrackIssueGetter/YouTrackIssuesGetter.project/.idea/libraries/Gradle__org_apache_commons_commons_lang3_3_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestFiles/YouTrackIssueGetter/YouTrackIssuesGetter.project/.idea/libraries/Gradle__org_checkerframework_checker_qual_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestFiles/YouTrackIssueGetter/YouTrackIssuesGetter.project/.idea/libraries/Gradle__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestFiles/YouTrackIssueGetter/YouTrackIssuesGetter.project/.idea/libraries/Gradle__org_glassfish_hk2_external_aopalliance_repackaged_2_5_0_b32.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestFiles/YouTrackIssueGetter/YouTrackIssuesGetter.project/.idea/libraries/Gradle__org_glassfish_hk2_external_javax_inject_2_5_0_b32.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestFiles/YouTrackIssueGetter/YouTrackIssuesGetter.project/.idea/libraries/Gradle__org_glassfish_hk2_hk2_api_2_5_0_b32.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestFiles/YouTrackIssueGetter/YouTrackIssuesGetter.project/.idea/libraries/Gradle__org_glassfish_hk2_hk2_locator_2_5_0_b32.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestFiles/YouTrackIssueGetter/YouTrackIssuesGetter.project/.idea/libraries/Gradle__org_glassfish_hk2_hk2_utils_2_5_0_b32.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestFiles/YouTrackIssueGetter/YouTrackIssuesGetter.project/.idea/libraries/Gradle__org_glassfish_hk2_osgi_resource_locator_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestFiles/YouTrackIssueGetter/YouTrackIssuesGetter.project/.idea/libraries/Gradle__org_glassfish_jersey_bundles_repackaged_jersey_guava_2_25_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestFiles/YouTrackIssueGetter/YouTrackIssuesGetter.project/.idea/libraries/Gradle__org_glassfish_jersey_core_jersey_client_2_25_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestFiles/YouTrackIssueGetter/YouTrackIssuesGetter.project/.idea/libraries/Gradle__org_glassfish_jersey_core_jersey_common_2_25_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestFiles/YouTrackIssueGetter/YouTrackIssuesGetter.project/.idea/libraries/Gradle__org_glassfish_jersey_ext_jersey_entity_filtering_2_25_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestFiles/YouTrackIssueGetter/YouTrackIssuesGetter.project/.idea/libraries/Gradle__org_glassfish_jersey_media_jersey_media_json_jackson_2_25_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestFiles/YouTrackIssueGetter/YouTrackIssuesGetter.project/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestFiles/YouTrackIssueGetter/YouTrackIssuesGetter.project/.idea/libraries/Gradle__org_javassist_javassist_3_20_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestFiles/YouTrackIssueGetter/YouTrackIssuesGetter.project/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestFiles/YouTrackIssueGetter/YouTrackIssuesGetter.project/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestFiles/YouTrackIssueGetter/YouTrackIssuesGetter.project/.idea/modules/YouTrackIssuesGetter.project.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestFiles/YouTrackIssueGetter/YouTrackIssuesGetter.project/.idea/modules/YouTrackIssuesGetter.project.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestFiles/YouTrackIssueGetter/YouTrackIssuesGetter.project/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestFiles/YouTrackIssueGetter/YouTrackIssuesGetter.project/YouTrackIssuesGetter.project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestFiles/YouTrackIssueGetter/YouTrackIssuesGetter.project/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestFiles/YouTrackIssueGetter/YouTrackIssuesGetter.project/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestFiles/YouTrackIssueGetter/YouTrackIssuesGetter.project/build/classes/java/main/IdLengthComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestFiles/YouTrackIssueGetter/YouTrackIssuesGetter.project/build/classes/java/main/IdLexicComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestFiles/YouTrackIssueGetter/YouTrackIssuesGetter.project/build/classes/java/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestFiles/YouTrackIssueGetter/YouTrackIssuesGetter.project/build/classes/java/main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestFiles/YouTrackIssueGetter/YouTrackIssuesGetter.project/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestFiles/YouTrackIssueGetter/YouTrackIssuesGetter.project/src/main/java/Main.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="CodeInstrumentation" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TestFiles/YouTrackIssueGetter/YouTrackIssuesGetter.project/src/main/java/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="326">
+              <caret line="85" column="1" lean-forward="true" selection-end-line="85" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/InstrumentationClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/InnerData/InstrumentationData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="92" selection-start-line="92" selection-end-line="92" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/InstrumentationMethods.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="205">
+              <caret line="79" column="7" selection-start-line="79" selection-start-column="7" selection-end-line="79" selection-end-column="7" />
+              <folding>
+                <element signature="e#2484#2717#0" expanded="true" />
+                <element signature="e#2716#2717#0" expanded="true" />
+                <element signature="e#3310#3542#0" expanded="true" />
+                <element signature="e#3541#3542#0" expanded="true" />
+                <element signature="e#3720#3949#0" expanded="true" />
+                <element signature="e#3948#3949#0" expanded="true" />
+                <element signature="e#4123#4353#0" expanded="true" />
+                <element signature="e#4352#4353#0" expanded="true" />
+                <element signature="e#4531#4765#0" expanded="true" />
+                <element signature="e#4764#4765#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/TestFiles/rules.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="37" lean-forward="true" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+              <folding>
+                <element signature="e#544#550#0" expanded="true" />
+                <element signature="e#603#609#0" expanded="true" />
+                <element signature="e#759#765#0" expanded="true" />
+                <element signature="e#818#824#0" expanded="true" />
+                <element signature="e#1024#1030#0" expanded="true" />
+                <element signature="e#1109#1115#0" expanded="true" />
+                <element signature="e#1262#1268#0" expanded="true" />
+                <element signature="e#1321#1327#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TestFiles/rules.xsd">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="40" column="45" selection-start-line="40" selection-start-column="45" selection-end-line="40" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="@Aspect" />
+        <option value="package-info" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Method</find>
+      <find>Field</find>
+      <find>RES</find>
+      <find>TrySt</find>
+      <find>ForS</find>
+      <find>curr</find>
+      <find>У</find>
+      <find>message</find>
+      <find>messa</find>
+      <find>getMessageBody</find>
+      <find>text</find>
+      <find>asString</find>
+      <find>null</find>
+      <find>sys</find>
+      <find>syste</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src/TestFiles/YouTrackIssueGetter" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/resources/Main.kt" />
+        <option value="$PROJECT_DIR$/src/main/resources/Generator.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/Generator.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/Aspects/InstAspect.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Aspects/InstrumentationAspect.aj" />
+        <option value="$PROJECT_DIR$/src/main/java/MainPackage/Rule.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MainPackage/Contexts.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MainPackage/Context.java" />
+        <option value="$PROJECT_DIR$/src/rules.xml" />
+        <option value="$PROJECT_DIR$/rules.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/MainPackage/CMDParser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MainPackage/MainClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MainPackage/BlockMethods.java" />
+        <option value="$PROJECT_DIR$/src/TestFiles/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DataStorage/RuleData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DataStorage/ContextData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/HelloWorld.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Instrumentation/BlocksInstrumentation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Instrumentation/InstrumentationMethods.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Instrumentation/InstrumentationClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/XMLParsing/FullMessage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/XMLParsing/generated/Class.java" />
+        <option value="$PROJECT_DIR$/src/main/java/XMLParsing/generated/Item.java" />
+        <option value="$PROJECT_DIR$/src/main/java/XMLParsing/generated/Method.java" />
+        <option value="$PROJECT_DIR$/src/main/java/XMLParsing/Value.java" />
+        <option value="$PROJECT_DIR$/src/main/java/XMLParsing/Class.java" />
+        <option value="$PROJECT_DIR$/src/main/java/XMLParsing/ObjectFactory.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/XMLParsing/Rules.java" />
+        <option value="$PROJECT_DIR$/src/main/java/XMLParsing/Contexts.java" />
+        <option value="$PROJECT_DIR$/src/main/java/XMLParsing/Method.java" />
+        <option value="$PROJECT_DIR$/src/main/java/XMLParsing/Message.java" />
+        <option value="$PROJECT_DIR$/src/TestFiles/rules.dtd" />
+        <option value="$PROJECT_DIR$/src/TestFiles/YouTrackIssueGetter/YouTrackIssuesGetter.project/src/main/java/ModifiedMain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/XMLParsing/Schema.java" />
+        <option value="$PROJECT_DIR$/src/main/java/XMLParsing/Settings.java" />
+        <option value="$PROJECT_DIR$/src/main/java/XMLParsing/package-info.java" />
+        <option value="$PROJECT_DIR$/src/main/java/XMLParsing/Item.java" />
+        <option value="$PROJECT_DIR$/src/main/java/XMLParsing/Rule.java" />
+        <option value="$PROJECT_DIR$/src/main/java/XMLParsing/Location.java" />
+        <option value="$PROJECT_DIR$/src/main/java/XMLParsing/Context.java" />
+        <option value="$PROJECT_DIR$/src/TestFiles/rules.xsd" />
+        <option value="$PROJECT_DIR$/src/main/java/InnerData/Items.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MainPackage/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/InnerData/Locations.java" />
+        <option value="$PROJECT_DIR$/src/main/java/InnerData/InstrumentationData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MainPackage/InstrumentationMethods.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MainPackage/InstrumentationClass.java" />
+        <option value="$PROJECT_DIR$/src/TestFiles/YouTrackIssueGetter/YouTrackIssuesGetter.project/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/src/TestFiles/rules.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1565" />
+    <option name="height" value="940" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="CodeInstrumentation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodeInstrumentation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="CodeInstrumentation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodeInstrumentation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CodeInstrumentation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodeInstrumentation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CodeInstrumentation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodeInstrumentation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="CodeInstrumentation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodeInstrumentation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CodeInstrumentation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodeInstrumentation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="InnerData" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CodeInstrumentation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodeInstrumentation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="TestFiles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CodeInstrumentation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodeInstrumentation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="TestFiles" type="462c0819:PsiDirectoryNode" />
+              <item name="TestProject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CodeInstrumentation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodeInstrumentation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="TestFiles" type="462c0819:PsiDirectoryNode" />
+              <item name="TestProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CodeInstrumentation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodeInstrumentation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="TestFiles" type="462c0819:PsiDirectoryNode" />
+              <item name="YouTrackIssueGetter" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="codeinstrumentation" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/TestFiles/TestProject" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.31894737" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="XMLParsing" />
+      <recent name="MainPackage" />
+      <recent name="Instrumentation" />
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\saf-s\Desktop\Учёба_и_работа\4_курс\Диплом\CodeInstrumentation\src\main\java\XMLParsing" />
+      <recent name="C:\Users\saf-s\Desktop\Учёба и работа\4 курс\Диплом\CodeInstrumentation\src\test\java\TestFiles" />
+      <recent name="C:\Users\saf-s\Desktop\Учёба и работа\4 курс\Диплом\CodeInstrumentation\src\test" />
+      <recent name="C:\Users\saf-s\Desktop\Учёба и работа\4 курс\Диплом\CodeInstrumentation\src\main\java\MainPackage" />
+      <recent name="C:\Users\saf-s\Desktop\Учёба и работа\4 курс\Диплом\CodeInstrumentation\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainPackage.Main" />
+      <module name="CodeInstrumentation.main" />
+      <option name="PROGRAM_PARAMETERS" value="-i C:\Users\saf-s\Desktop\CodeInstrumentation\src\TestFiles\YouTrackIssuesGetter.project -r C:\Users\saf-s\Desktop\CodeInstrumentation\src\TestFiles\rules.xml" />
+      <option name="VM_PARAMETERS" value="-Djavax.xml.accessExternalDTD=all" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MainPackage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestJar" type="JarApplication">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/build/libs/CodeInstrumentation-1.0-SNAPSHOT.jar" />
+      <option name="PROGRAM_PARAMETERS" value="Main.java -i C:\Users\saf-s\Desktop\CodeInstrumentation\src\TestFiles\YouTrackIssueGetter -r C:\Users\saf-s\Desktop\CodeInstrumentation\src\TestFiles\rules.xml" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\saf-s\Desktop\CodeInstrumentation" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <method v="2">
+        <option name="Gradle.BeforeRunTask" enabled="true" tasks="build" externalProjectPath="$PROJECT_DIR$" vmOptions="" scriptParameters="" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JAR Application.TestJar" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1aeb70f9-ae2c-4b3c-97f4-49f006a60c3e" name="Default Changelist" comment="" />
+      <created>1557776487485</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557776487485</updated>
+      <workItem from="1557776492979" duration="6518000" />
+      <workItem from="1557853983859" duration="821000" />
+      <workItem from="1557854837393" duration="1179000" />
+      <workItem from="1557856058929" duration="10219000" />
+      <workItem from="1558006713466" duration="17096000" />
+      <workItem from="1558277327990" duration="7453000" />
+      <workItem from="1558287753306" duration="8034000" />
+      <workItem from="1558363018837" duration="18537000" />
+      <workItem from="1558514483949" duration="24190000" />
+      <workItem from="1558693533876" duration="13272000" />
+      <workItem from="1559033859182" duration="16130000" />
+      <workItem from="1559149837869" duration="21863000" />
+      <workItem from="1559284808829" duration="22613000" />
+      <workItem from="1559320683156" duration="31405000" />
+      <workItem from="1559544765458" duration="980000" />
+      <workItem from="1559550510206" duration="4820000" />
+      <workItem from="1559667887752" duration="55646000" />
+      <workItem from="1559903720198" duration="14439000" />
+      <workItem from="1560083225028" duration="13200000" />
+      <workItem from="1560266910202" duration="1931000" />
+      <workItem from="1560336882144" duration="1946000" />
+      <workItem from="1560496771404" duration="1197000" />
+      <workItem from="1560615331732" duration="18274000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="311763000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49787235" visible="true" weight="0.2409396" />
+      <window_info id="Structure" order="1" sideWeight="0.50212765" side_tool="true" weight="0.18255034" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28186968" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49932885" weight="0.40934843" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49932885" weight="0.32577905" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.35977337" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5013423" side_tool="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Messages" order="13" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Gradle" order="6" weight="0.32885906" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1442953" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33427763" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49932885" visible="true" weight="0.4220963" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49932885" weight="0.32577905" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.35977337" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5013423" side_tool="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Messages" order="13" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Gradle" order="6" weight="0.32885906" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/src/TestFiles/MoveMethodGenerator" />
+      <path value="$PROJECT_DIR$/src/TestFiles/YouTrackIssueGetter" />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/MainPackage/InstrumentationClass.java</url>
+          <line>65</line>
+          <properties />
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/MainPackage/Main.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/InnerData/Items.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/MainPackage/InstrumentationClass.java</url>
+          <line>98</line>
+          <properties />
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/MainPackage/Main.java</url>
+          <line>44</line>
+          <properties />
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Remote">
+        <watch expression="settings.rules" />
+        <watch expression="settings.contexts" />
+        <watch expression="InstrumentationClass." language="JAVA" />
+        <watch expression="expr" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>InstrumentationClass.</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>sourceCode</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/org/xml/sax/helpers/DefaultHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="82" selection-start-line="82" selection-end-line="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/org/xml/sax/helpers/LocatorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="222" selection-start-line="222" selection-end-line="222" />
+          <folding>
+            <element signature="e#4341#4342#0" expanded="true" />
+            <element signature="e#4381#4382#0" expanded="true" />
+            <element signature="e#4628#4629#0" expanded="true" />
+            <element signature="e#4668#4669#0" expanded="true" />
+            <element signature="e#4898#4899#0" expanded="true" />
+            <element signature="e#4942#4943#0" expanded="true" />
+            <element signature="e#5184#5185#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/XMLParsing/ObjectFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/XMLParsing/Contexts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestFiles/YouTrackIssueGetter/YouTrackIssuesGetter.project/src/main/java/Issue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestFiles/DBlogcomp/src/main/java/Generator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-538">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestFiles/rules.dtd" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/XMLParsing/Schema.java" />
+    <entry file="file://$PROJECT_DIR$/src/TestFiles/com/mycompany/quickbooks/obj/ObjectFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/TestFiles/com/mycompany/quickbooks/obj/Settings.java" />
+    <entry file="file://$PROJECT_DIR$/src/TestFiles/com/mycompany/quickbooks/obj/package-info.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/XMLParsing/Settings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/XMLParsing/Rules.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="776">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/XMLParsing/schema1.xsd" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/jre/lib/rt.jar!/com/sun/xml/internal/bind/v2/runtime/unmarshaller/Loader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/jre/lib/rt.jar!/com/sun/xml/internal/bind/v2/runtime/unmarshaller/UnmarshallingContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="359" selection-start-line="359" selection-end-line="359" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/XMLParsing/Message.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/XMLParsing/Method.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/XMLParsing/Rule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/XMLParsing/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#911#912#0" expanded="true" />
+            <element signature="e#938#939#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.javaparser/javaparser-core/3.12.0/b2c6f584df4512d28ef692bb881d70e4fbf5ad/javaparser-core-3.12.0-sources.jar!/com/github/javaparser/ast/stmt/WhileStmt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="82" selection-start-line="82" selection-end-line="82" />
+          <folding>
+            <element signature="e#2988#2989#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.javaparser/javaparser-core/3.12.0/b2c6f584df4512d28ef692bb881d70e4fbf5ad/javaparser-core-3.12.0-sources.jar!/com/github/javaparser/ast/stmt/ForEachStmt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="94" selection-start-line="94" selection-end-line="94" />
+          <folding>
+            <element signature="e#3446#3447#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.javaparser/javaparser-core/3.12.0/b2c6f584df4512d28ef692bb881d70e4fbf5ad/javaparser-core-3.12.0-sources.jar!/com/github/javaparser/ast/stmt/TryStmt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="141" selection-start-line="141" selection-end-line="141" />
+          <folding>
+            <element signature="e#4879#4880#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.javaparser/javaparser-core/3.12.0/b2c6f584df4512d28ef692bb881d70e4fbf5ad/javaparser-core-3.12.0-sources.jar!/com/github/javaparser/ast/stmt/BlockStmt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
+          <folding>
+            <element signature="e#2725#2726#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.javaparser/javaparser-core/3.12.0/b2c6f584df4512d28ef692bb881d70e4fbf5ad/javaparser-core-3.12.0-sources.jar!/com/github/javaparser/ast/body/MethodDeclaration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="108" selection-start-line="108" selection-end-line="108" />
+          <folding>
+            <element signature="e#6106#6107#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.javaparser/javaparser-core/3.12.0/b2c6f584df4512d28ef692bb881d70e4fbf5ad/javaparser-core-3.12.0-sources.jar!/com/github/javaparser/ast/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="798" selection-start-line="798" selection-end-line="798" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.javaparser/javaparser-core/3.12.0/b2c6f584df4512d28ef692bb881d70e4fbf5ad/javaparser-core-3.12.0-sources.jar!/com/github/javaparser/ast/stmt/IfStmt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="88" selection-start-line="88" selection-end-line="88" />
+          <folding>
+            <element signature="e#3295#3296#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestFiles/YouTrackIssueGetter/YouTrackIssuesGetter.project/src/main/java/ModifiedMain" />
+    <entry file="file://$PROJECT_DIR$/AST.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="152" column="46" lean-forward="true" selection-start-line="152" selection-start-column="46" selection-end-line="152" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Учёба_и_работа/4_курс/Диплом/MoveMethodGenerator/methods-mover/src/main/java/org.jetbrains.research.groups.ml_methods.move_method_gen.mover/ModifiedAppStarter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="34" column="42" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ModifiedAppStarter.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/XMLParsing/Context.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="777">
+          <caret line="68" column="9" lean-forward="true" selection-start-line="68" selection-start-column="9" selection-end-line="68" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/XMLParsing/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/XMLParsing/Location.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="e#538#539#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ModifiedMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/InnerData/Items.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="15" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/InnerData/Locations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.javaparser/javaparser-core/3.12.0/b2c6f584df4512d28ef692bb881d70e4fbf5ad/javaparser-core-3.12.0-sources.jar!/com/github/javaparser/ast/visitor/VoidVisitorAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="109" selection-start-line="109" selection-end-line="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.javaparser/javaparser-core/3.12.0/b2c6f584df4512d28ef692bb881d70e4fbf5ad/javaparser-core-3.12.0-sources.jar!/com/github/javaparser/ast/stmt/SwitchStmt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="108" selection-start-line="108" selection-end-line="108" />
+          <folding>
+            <element signature="e#4077#4078#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.javaparser/javaparser-core/3.12.0/b2c6f584df4512d28ef692bb881d70e4fbf5ad/javaparser-core-3.12.0-sources.jar!/com/github/javaparser/ast/NodeList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="268" selection-start-line="268" selection-end-line="268" />
+          <folding>
+            <element signature="e#7275#7276#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/InstrumentationClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/InnerData/InstrumentationData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestFiles/TestProject/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestFiles/YouTrackIssueGetter/YouTrackIssuesGetter.project/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="85" column="1" lean-forward="true" selection-end-line="85" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/InstrumentationMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="79" column="7" selection-start-line="79" selection-start-column="7" selection-end-line="79" selection-end-column="7" />
+          <folding>
+            <element signature="e#2484#2717#0" expanded="true" />
+            <element signature="e#2716#2717#0" expanded="true" />
+            <element signature="e#3310#3542#0" expanded="true" />
+            <element signature="e#3541#3542#0" expanded="true" />
+            <element signature="e#3720#3949#0" expanded="true" />
+            <element signature="e#3948#3949#0" expanded="true" />
+            <element signature="e#4123#4353#0" expanded="true" />
+            <element signature="e#4352#4353#0" expanded="true" />
+            <element signature="e#4531#4765#0" expanded="true" />
+            <element signature="e#4764#4765#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="92" selection-start-line="92" selection-end-line="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestFiles/TestProject/src/ModifiedMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="73" column="5" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="73" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestFiles/YouTrackIssueGetter/YouTrackIssuesGetter.project/src/main/java/ModifiedMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="117" lean-forward="true" selection-end-line="117" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestFiles/rules.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="40" column="45" selection-start-line="40" selection-start-column="45" selection-end-line="40" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestFiles/rules.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="37" lean-forward="true" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+          <folding>
+            <element signature="e#544#550#0" expanded="true" />
+            <element signature="e#603#609#0" expanded="true" />
+            <element signature="e#759#765#0" expanded="true" />
+            <element signature="e#818#824#0" expanded="true" />
+            <element signature="e#1024#1030#0" expanded="true" />
+            <element signature="e#1109#1115#0" expanded="true" />
+            <element signature="e#1262#1268#0" expanded="true" />
+            <element signature="e#1321#1327#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>CodeInstrumentation:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.31894737" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Detection</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.31894737" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.31894737" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.31894737" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Kotlin|main|CodeInstrumentation</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.31894737" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Gradle: junit:junit:4.12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.31894737" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="se.expertsystem.intellij.aop.aspectj.AspectJProjectComponent">
+    <setting name="isActivated" value="false" />
+  </component>
+</project>
