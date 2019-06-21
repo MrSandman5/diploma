@@ -42,6 +42,8 @@ hs_err_pid*
 .idea/**/dbnavigator.xml
 
 # Gradle
+.gradle
+/build/
 .idea/**/gradle.xml
 .idea/**/libraries
 
@@ -52,6 +54,15 @@ hs_err_pid*
 # .idea/modules.xml
 # .idea/*.iml
 # .idea/modules
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+# Cache of project
+.gradletasknamecache
 
 # CMake
 cmake-build-*/
