@@ -1,4 +1,4 @@
-# Diploma
+# diploma
 Project describes automatic code instrumentation tool for Java language. It uses rules file written on DSL, which defines settings for code instrumentation. Main principle: parsing into AST => code instrumentation => AST generation.
 
 Features:
